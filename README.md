@@ -123,6 +123,8 @@ npm start
 
 - ローカルでは `.env.local` に以下を設定
 - Vercel でも同じ値を Environment Variables に追加
+- **`.env.local` は公開リポジトリにコミットしないでください**
+- 公開用リポジトリには `.env.example` のみを残します
 
 ```bash
 NEXT_PUBLIC_SUPABASE_URL=your-project-url
